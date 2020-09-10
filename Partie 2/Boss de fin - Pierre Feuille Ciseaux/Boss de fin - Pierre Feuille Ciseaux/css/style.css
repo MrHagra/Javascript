@@ -1,3 +1,8 @@
+*
+{
+transition: 0.2s;
+  font-family: impact;
+}
 body {
     background-color: #0984e3;
     color: white;
@@ -38,6 +43,7 @@ button:hover{
 button:active{
     box-shadow: 0em 1em 1em 0em #636e72;
     transform: translateY(1em);
+
 }
 
 i{
@@ -49,7 +55,10 @@ i{
     transition: all 0.5s ;
     font-size: 2em;
 }
-
+br
+{
+  color: black;
+}
 
 /* MEDIA QUERIES
 *****************/
